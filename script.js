@@ -71,6 +71,10 @@ function main() {
     const deltaTime = now - then;
     then = now;
 
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
     drawScene(gl, programInfo, buffers, deltaTime);
 
     requestAnimationFrame(render);

@@ -1,7 +1,12 @@
 canvas {
-	border: 2px solid black;
+	border: none;
 	background-color: black;
 }
 video {
 	display: none;
+}
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
 }
