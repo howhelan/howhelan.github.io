@@ -163,7 +163,7 @@ function drawScene(gl, programInfo, buffers, deltaTime) {
   // as the destination to receive the result.
   mat4.perspective(projectionMatrix,
                    fieldOfView,
-                   aspect,
+                   0.01,
                    zNear,
                    zFar);
 
