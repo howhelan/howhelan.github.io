@@ -1,0 +1,63 @@
+.container {
+	padding: 100px;
+	flex: 1;
+}
+
+.content {
+	flex: 50%;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.header-text {
+	font-size: 80px;
+}
+
+.sub-header {
+	font-size: 50px;
+}
+
+.sub-header-content {
+	display: inline-block;
+}
+
+.header {
+	font-size: 0px;
+}
+
+.name {
+	color: #ffa500;
+	font-weight: 700;
+}
+
+.dropdowns {
+	margin-top: 150px;
+}
+
+.dropdown-title {
+	padding-top: 30px;
+	font-size: 0px;
+}
+
+.dropdown-title-text {
+	font-size: 45px;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	background-color:#D0E1EA;
+	padding: 15px;
+	border-radius: 2px;
+}
+
+.contact-item {
+	display: flex;
+}
+
+.contact-item-icon {
+	padding-right: 8px;
+}
+
+.linkedin-icon {
+	height: 24px;
+}
